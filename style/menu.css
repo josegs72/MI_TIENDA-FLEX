@@ -1,113 +1,91 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-
-
-
 .header {
-
-    width: 100%;
-    height: 100px;
+  width: 100%;
+  height: 100px;
 }
 
 .container {
-
-    
-    height: 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navigation ul li {
-
-    display: inline-block;
-    margin-left: 20px;
-    font-size: 16px;
-    font-weight: bold;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .hombre_color a {
-    color: lightslategrey;
-
-
-
-
+  color: lightslategrey;
 }
 
 .mujer_color a {
-    margin-left: 15px;
+  margin-left: 15px;
 
-    color: black;
-    text-align: 20px;
+  color: black;
+  text-align: 20px;
 }
 
 .navigation ul li a {
-    text-decoration: none;
+  text-decoration: none;
 
-
-
-    display: block;
-}
-.tienda-lista{
-    margin-top: 15px;
-    font-size: 15px;
-    font-weight: bold;
-    color: grey;
+  display: block;
 }
 
+.tienda {
+  text-align: center;
+}
 
-
-
+.tienda-lista {
+  font-size: 15px;
+  font-weight: bold;
+  color: grey;
+}
 
 h1 {
-    font-size: 50px;
-    margin-left: 30px;
-
-
+  font-size: 50px;
+  margin-left: 30px;
 }
 
-
 .nav_novedades ul {
+  list-style: none;
+  margin-left: 20px;
 
-    list-style: none;
-    margin-left: 20px;
-    text-decoration: none;
-    font-size: 25px;
-
-    
-
+  text-decoration: none;
+  font-size: 25px;
 }
 
 .promo {
-    color: orange;
-
+  color: orange;
 }
 
 .ropa {
-    font-weight: bold;
-   
+  font-weight: bold;
 }
-
 
 .box {
- display: flex;
-    margin-right: 30px;
-    justify-content: center ;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  margin-right: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.logos {
+  margin-left: 10px;
 }
 
-.logo1{
-    width: 30px;
-    height: 30px;
-   
+.logo1 {
+  width: 30px;
+  height: 30px;
 }
-.logo2{
-    width: 30px;
-    height: 30px;
-   
+.logo2 {
+  width: 30px;
+  height: 30px;
 }
